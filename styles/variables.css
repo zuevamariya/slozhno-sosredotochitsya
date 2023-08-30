@@ -1,9 +1,13 @@
 :root {
   --bg-color: #000028;
   --accent-bg-color: url(/images/cover-image-dark.png);
-  --text-color: #F1B2CE;
-  --accent-color: #FF0070;
+  --decoration-color: #FF0070;
   --title-color: #DB00FF;
   --main-font: 'IBM Plex Mono', Arial, sans-serif;
   --font-size: 18px;
+  --accent-color: #FF0070;
+  --subtitle-color: #000028;
+  --element-color: #FF0070;
+  --text-color: #F1B2CE; 
+  --hover-style-button: rgba(50, 49, 45, 0.40); 
 }

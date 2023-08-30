@@ -1,12 +1,29 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #FFF1F7;
+  --accent-bg-color: url(/images/cover-image-light.png);
+  --decoration-color: #353430;
+  --title-color: #FFC2E6;
+  --main-font: 'IBM Plex Mono', Arial, sans-serif;
+  --font-size: 18px;
+  --accent-color: #FF8DCB;
+  --subtitle-color: #353430;
+  --element-color: #353430;
+  --text-color: #353430;
+  --hover-style-button: rgba(255, 0, 112, 0.40);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --accent-bg-color: url(/images/cover-image-light.png);
+    --decoration-color: #353430;
+    --title-color: #FFC2E6;
+    --main-font: 'IBM Plex Mono', Arial, sans-serif;
+    --font-size: 18px;
+    --accent-color: #FF8DCB;
+    --subtitle-color: #353430;
+    --element-color: #353430;
+    --text-color: #353430;
+    --hover-style-button: rgba(255, 0, 112, 0.40);
+  }
 }
