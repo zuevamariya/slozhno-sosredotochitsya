@@ -1,10 +1,8 @@
 .page.theme_dark {
   --bg-color: #000028;
-  --accent-bg-color: url(/images/cover-image-dark.png);
+  --accent-bg-color: url(../images/cover-image-dark.png);
   --decoration-color: #FF0070;
   --title-color: #DB00FF;
-  --main-font: 'IBM Plex Mono', Arial, sans-serif;
-  --font-size: 18px;
   --accent-color: #FF0070;
   --subtitle-color: #000028;
   --element-color: #FF0070;

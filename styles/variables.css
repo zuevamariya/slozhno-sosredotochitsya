@@ -1,6 +1,6 @@
 :root {
   --bg-color: #000028;
-  --accent-bg-color: url(/images/cover-image-dark.png);
+  --accent-bg-color: url(../images/cover-image-dark.png);
   --decoration-color: #FF0070;
   --title-color: #DB00FF;
   --main-font: 'IBM Plex Mono', Arial, sans-serif;

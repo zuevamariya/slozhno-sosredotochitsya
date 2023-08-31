@@ -37,4 +37,29 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
+}
+
+
+a:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  border: 1px solid currentColor;
+  outline: none;
+}
+
+button:hover {
+  border: 1px solid var(--hover-style-button);
+}
+
+button:focus-visible {
+  border-bottom: 1px solid currentColor;
+  outline: none;
 }

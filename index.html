@@ -19,7 +19,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span aria-hidden="true">REC</span>
+      <span class="decorated-element" aria-hidden="true">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -55,16 +55,16 @@
         особенно когда очень надо</p>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="section">
         <h2 class="section__title">
           Почему сосредоточиться так сложно
         </h2>
         <div class="section__content">
           <article class="section__content-structure">
-            <h2 class="section__content-title title_decor">
+            <h3 class="section__content-title title_decor">
               Многозадачность
-            </h2>
+            </h3>
             <p class="section__content-text">
               Особенно сложно сосредоточиться, когда задач много 
               и все они — важные. Где же легендарная 
@@ -82,9 +82,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="section__content-title title_decor">
+            <h3 class="section__content-title title_decor">
               Дофамин
-            </h2>
+            </h3>
             <p class="section__content-text">
               С гормонами стресса всё понятно, но дальше — 
               ещё интереснее. В нашей невозможности сосредоточиться 
@@ -107,9 +107,9 @@
         </h2>
         <div class="section__content section__increase">
           <article class="section__content-structure">
-            <h2 class="section__content-title title_decor">
+            <h3 class="section__content-title title_decor">
               Многозадачность
-            </h2>
+            </h3>
             <p class="section__content-text">
               Как концентрация может снижаться из-за… концентрации? 
               Любая стрессовая ситуация (и резко меняющийся мир в 
@@ -121,9 +121,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="section__content-title title_decor">
+            <h3 class="section__content-title title_decor">
               Еда
-            </h2>
+            </h3>
             <p class="section__content-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — 
               молниеносно доставляют в мозг энергию и помогают ему 
@@ -135,9 +135,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="section__content-title title_decor">
+            <h3 class="section__content-title title_decor">
               Гаджеты
-            </h2>
+            </h3>
             <p class="section__content-text">
               Да-да, это та самая ситуация, когда на экране 
               ноутбука — код, в наушниках — подкаст, а на 
@@ -158,13 +158,14 @@
           (то есть дольше трёх секунд)
         </h2>
         <div class="section__content">
-          <h2 class="section__content-title title_decor">
+          <h3 class="section__content-title 
+          section__content-title_font_normal title_decor">
             5 простых (на самом деле не очень) советов
-          </h2>
+          </h3>
           <article class="section__content-structure">
-            <h2 class="title_decor section__content-title_thin">
+            <h4 class="title_decor section__content-title">
               Представьте небо и облака
-            </h2>
+            </h4>
             <p class="section__content-text">
               Или листья в ручье. Тут дело в лёгкой медитации, 
               которая помогает успокоиться. Ведь часто именно 
@@ -179,9 +180,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="title_decor section__content-title_thin">
+            <h4 class="title_decor section__content-title">
               Включите музыку
-            </h2>
+            </h4>
             <p class="section__content-text">
               Но не любую, и не любимую. Любимая может быть 
               связана с сильными положительными эмоциями, которые 
@@ -192,9 +193,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="title_decor section__content-title_thin">
+            <h4 class="title_decor section__content-title">
               Прогуляйтесь
-            </h2>
+            </h4>
             <p class="section__content-text">
               Или даже пробегитесь. Лучше найти парк или лес: 
               один эксперимент 
@@ -210,9 +211,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="title_decor section__content-title_thin">
+            <h4 class="title_decor section__content-title">
               Хорошо ешьте
-            </h2>
+            </h4>
             <p class="section__content-text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте 
               продукты, которые препятствуют резким скачкам сахара 
@@ -222,9 +223,9 @@
             </p>
           </article>
           <article class="section__content-structure">
-            <h2 class="title_decor section__content-title_thin">
+            <h4 class="title_decor section__content-title">
               Читайте
-            </h2>
+            </h4>
             <p class="section__content-text">
               Настоящие бумажные книги. Это правда помогает с 
               концентрацией: чтобы прочитать пост в соцсети, 
@@ -237,37 +238,38 @@
         </div>
       </section>
       <section class="section-pictures">
-        <h2 class="section__title">
+        <h2 class="section__content-title 
+        section__content-title_font_normal title_decor">
           А можно в картинках?
         </h2>
         <div class="section-pictures__content">
           <img
-            class="picture picture-first"
+            class="picture"
             loading="lazy"
             src="images/sunset.png"
             alt="Рассвет в горах"
           />
           <img
-            class="picture picture-second"
+            class="picture"
             loading="lazy"
             src="images/ice-cream.png"
             alt="Шарики мороженого в формочке"
           />
           <img
-            class="picture picture-third"
+            class="picture"
             loading="lazy"
             src="images/tape.png"
             alt="Кассета магнитофона на заставке рабочего 
             стола компьютера"
           />
           <img
-            class="picture picture-fourth"
+            class="picture"
             loading="lazy"
             src="images/books.png"
             alt="Стопка книг, на которой стоит чашка"
           />
           <img
-            class="picture picture-fifth"
+            class="picture"
             loading="lazy"
             src="images/street.png"
             alt="Пустая улица, с видом на дорогу, по бокам дома"
