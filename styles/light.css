@@ -24,7 +24,7 @@
     --subtitle-color: #353430;
     --element-color: #353430;
     --text-color: #353430;
-    --hover-style-button: rgba(255, 0, 112, 0.40);
+    --hover-style-button:rgba(50, 49, 45, 0.40);
   }
 
   .decorated-element {
